@@ -1,0 +1,285 @@
+#header
+{
+    color: #fff;
+    background-color:#34495e;
+ 
+}
+.section
+{
+   padding-top: 70px; 
+   padding-bottom: 70px;
+}
+.section h2.section-head
+{
+   color:black; 
+   text-align: center;
+   margin-bottom: 40px;
+}
+.section h2.section-head2
+{
+   color:#fff; 
+   text-align: center;
+   margin-bottom: 40px;
+}
+.section h2.section-head:after
+{
+   background: rgba(231,76,60,0.7) ; 
+   content: " ";
+   display: block;
+   width: 100px;
+   height: 3px;
+   margin: 20px auto;
+}
+.section h2.section-head2:after
+{
+   background: rgba(231,76,60,0.7) ; 
+   content: " ";
+   display: block;
+   width: 100px;
+   height: 3px;
+   margin: 20px auto;
+}
+
+#logo
+{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+a:hover{
+text-decoration: none;
+}
+#menu
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li
+{
+    display: inline-block;
+    
+
+}
+#menu li a{
+    color:#fff;
+    padding: 15px 15px;
+    display: inline-block;
+    text-decoration: none;
+}
+#menu li a:hover{
+   
+    background: black;
+   
+}
+
+#banner
+{
+    background: url('../Images/banner1.jpg') no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title
+{
+    padding-top: 5rem;
+}
+
+.banner-title h1
+{
+    background: rgba(255,255,255,0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+    color: black;
+}
+.banner-title p.lead
+{
+    color: #fff;
+    background: rgba(231,76,60,0.7);
+    padding: 10px;
+}
+.service-box
+{
+    text-align: center;
+}
+.service-box i.fa
+{
+    color: rgba(231,76,60,0.7); ;
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+#testimonials
+{
+    background: url("./joel-jasmin-forestbird-P8b0bg-w_YA-unsplash.jpg") no-repeat 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    position: relative;
+    color: #fff;
+}
+
+.news-post img
+{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.news-post h3
+{
+    font-size: 1.35rem;
+
+}
+
+.news-post h3 a{
+  color: rgba(231,76,60,0.7); 
+  text-decoration: none;
+}
+
+.post-date
+{
+    font-size: 13px;
+    margin-bottom:2px ;
+}
+
+.post-date:before
+{
+   content: "\f073"; 
+   font-family: FontAwesome;
+   padding-right: 5px;
+
+}
+
+a.readmore
+{
+    font-size:14px ;
+    text-decoration: none;
+    color: rgba(231,76,60,0.7);
+}
+
+a.readmore::after{
+    content:"\f101";
+    font-family:FontAwesome;
+    padding-left: 5px;
+}
+
+#footer-sidebar
+{
+    color: #fff;
+    background: #34495e;
+    padding: 20px 0;
+}
+
+.footer-widget h3::after{
+    content: " ";
+    background: #fff;
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 5px 0;
+}
+
+.footer-widget a{
+    color: #fff;
+}
+.letest-news
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.letest-news li{
+    margin-bottom: 3px;
+}
+
+.letest-news li:before
+{
+    content:"\f101";
+    font-family:FontAwesome;
+    padding-right: 5px;  
+}
+
+#footer
+{
+    color: #fff;
+    background:#2c3e50 ;
+    padding: 10px 0;
+}
+
+#social-icons
+{
+    list-style: none;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#social-icons li{
+    display: inline-block;
+    padding-left: 5px;
+}
+
+#social-icons li a{
+    color: #fff;
+    font-size:23px ;
+
+}
+@media (max-width:992px) {
+    .news-post
+    {
+        margin-bottom:30px ;
+    }
+}
+
+@media (max-width:768px)
+{
+    #logo
+    {
+       text-align: center;
+       margin: 10px 0; 
+    }
+    #menu
+    {
+        text-align: center;
+    }
+
+    #testimonials
+    {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .banner-title
+    {
+        padding-top: 0;
+    }
+    .testimonial
+    {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .service-box
+    {
+       margin-bottom: 30px; 
+    }
+   
+    .section
+{
+   padding-top: 40px; 
+   padding-bottom: 40px;
+}
+    .footer-widget
+    {
+        margin-bottom: 20px;
+    }
+
+    #footer
+    {
+        text-align: center;
+    }
+
+    #social-icons
+    {
+        margin-top:10px ;
+    }
+}
